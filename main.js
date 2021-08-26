@@ -13,4 +13,7 @@ var listaCognomi = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli",];
 // 1) Chiedi all'utente il suo cognome e lo inserisco in lista
 listaCognomi.push(prompt('Scrivi il tuo cognome'));
 
+// 2) Ordino alfabeticamente la lista
+listaCognomi.sort();
+
 console.log(listaCognomi)
