@@ -1,8 +1,8 @@
 // Array con i cognomi
-var listaCognomi = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli",];
+var listaCognomi = ["bianchi", "neri", "rossi", "verdi", "gialli",];
 
 // 1) Chiedi all'utente il suo cognome e lo inserisco in lista
-var cognomeUtente = prompt('Scrivi il tuo cognome').toUpperCase();
+var cognomeUtente = prompt('Scrivi il tuo cognome').toLowerCase();
 listaCognomi.push(cognomeUtente);
 
 // 2) Ordino alfabeticamente la lista
